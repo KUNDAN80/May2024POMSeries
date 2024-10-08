@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class DemoPage 
 {
-int i=10;
+int i=11;
 	By loc =By.cssSelector("demo");
 	
 public int getPage()
