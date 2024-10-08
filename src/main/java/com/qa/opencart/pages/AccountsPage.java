@@ -63,7 +63,7 @@ public List<String> getAccPageHeaders()
 public ResultsPage doSearch(String searchKey)
 {
 	WebElement searchEle= eleUtil.waitForElementVisible(search, AppConstants.DEFAULT_SHORT_TIME_OUT);
-	eleUtil.doSendkeys(searchEle, searchKey);
+	eleUtil.doSendKeys(searchEle, searchKey);
 	eleUtil.doClick(searchIcon);
 	return new ResultsPage(driver);
 }

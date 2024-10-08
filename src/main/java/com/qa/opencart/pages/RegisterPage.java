@@ -42,11 +42,11 @@ public boolean userRegisteration(String firstName, String lastName, String email
 
 	eleUtil.waitForElementVisible(this.firstName, AppConstants.DEFAULT_MEDIUM_TIME_OUT).sendKeys(firstName);
 
-	eleUtil.doSendkeys(this.lastName, lastName);
-	eleUtil.doSendkeys(this.email, email);
-	eleUtil.doSendkeys(this.telephone, telephone);
-	eleUtil.doSendkeys(this.password, password);
-	eleUtil.doSendkeys(this.confirmpassword, password);
+	eleUtil.doSendKeys(this.lastName, lastName);
+	eleUtil.doSendKeys(this.email, email);
+	eleUtil.doSendKeys(this.telephone, telephone);
+	eleUtil.doSendKeys(this.password, password);
+	eleUtil.doSendKeys(this.confirmpassword, password);
 	
 	
 	

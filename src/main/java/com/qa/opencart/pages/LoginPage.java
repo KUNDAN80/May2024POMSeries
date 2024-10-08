@@ -49,7 +49,7 @@ public class LoginPage {
 	public AccountsPage doLogin(String userName, String pwd) {
 		System.out.println("creds are: " + userName + " : " + pwd);
 		eleUtil.waitForElementVisible(username, AppConstants.DEFAULT_MEDIUM_TIME_OUT).sendKeys(userName);
-		eleUtil.doSendkeys(password, pwd);
+		eleUtil.doSendKeys(password, pwd);
 		eleUtil.doClick(loginBtn);
 		return new AccountsPage(driver);	
 	}
