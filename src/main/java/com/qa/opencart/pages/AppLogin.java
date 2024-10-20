@@ -6,7 +6,7 @@ String name ="Kundan";
 
 public void login()
 {
-	System.out.println("naveen");
+	System.out.println("Kundan");
 }
 
 
